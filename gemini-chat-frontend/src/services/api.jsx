@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8081/api/qna/ask";
+const API_URL = "https://java-app-7mph.onrender.com/api/qna/ask";
 
 export const fetchChatResponse = async (question) => {
     try {
